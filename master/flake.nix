@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-secp256k1-master.flake = false;
+  inputs.src-secp256k1-master.ref   = "refs/heads/master";
   inputs.src-secp256k1-master.owner = "status-im";
-  inputs.src-secp256k1-master.ref   = "master";
   inputs.src-secp256k1-master.repo  = "nim-secp256k1";
   inputs.src-secp256k1-master.type  = "github";
   
