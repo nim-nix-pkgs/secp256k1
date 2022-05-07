@@ -24,20 +24,22 @@
     "nimcrypto": {
       "inputs": {
         "flakeNimbleLib": [
+          "secp256k1-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "secp256k1-master",
           "nixpkgs"
         ],
         "src-nimcrypto-master": "src-nimcrypto-master"
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1651918189,
-        "narHash": "sha256-vwu7UfNS12No1Ynua/YTJjn4hV87daxenNf3uEv4Scs=",
+        "lastModified": 1651555723,
+        "narHash": "sha256-tfiY5Sv7WFFxR7tt2edwRqr8I+4KAToWZjJocHzbWPI=",
         "owner": "nim-nix-pkgs",
         "repo": "nimcrypto",
-        "rev": "35945b32e72643a356df3b403a80d73e677c1796",
+        "rev": "069af62638c6d6c1c717d77e6f4fd95753c18d5c",
         "type": "github"
       },
       "original": {
@@ -62,10 +64,37 @@
     "root": {
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
-        "nimcrypto": "nimcrypto",
         "nixpkgs": "nixpkgs",
+        "secp256k1-master": "secp256k1-master"
+      }
+    },
+    "secp256k1-master": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nimcrypto": "nimcrypto",
+        "nixpkgs": [
+          "nixpkgs"
+        ],
         "src-secp256k1-master": "src-secp256k1-master",
         "stew": "stew"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1651589764,
+        "narHash": "sha256-DFPEzQ6ZSV911xqhPF5yuF91SPS5IxCflQ6CsLz2aO8=",
+        "owner": "nim-nix-pkgs",
+        "repo": "secp256k1",
+        "rev": "f38335accc7db57b16db988297fc83e72e1ff83f",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "secp256k1",
+        "type": "github"
       }
     },
     "src-nimcrypto-master": {
@@ -122,20 +151,22 @@
     "stew": {
       "inputs": {
         "flakeNimbleLib": [
+          "secp256k1-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "secp256k1-master",
           "nixpkgs"
         ],
         "src-stew-master": "src-stew-master"
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1651918478,
-        "narHash": "sha256-wiBtwRip0VLMYncSUDT8eXhLiHv8FIKGbWLLYkcjBOM=",
+        "lastModified": 1651556064,
+        "narHash": "sha256-Rqk+ZX1Clc1m3ga3qxlWzceab1Zr/OvgTnJDlFFj9HI=",
         "owner": "nim-nix-pkgs",
         "repo": "stew",
-        "rev": "889d0cefb3c565138000d466af4162c6b4adb91e",
+        "rev": "3d2c28ba37141ba481091b2884e3b3988778efa1",
         "type": "github"
       },
       "original": {
